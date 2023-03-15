@@ -13,8 +13,24 @@
             <a href="senado.html">Senado</a>
         </nav>
 
-        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Buscar">
-        
+        <div class="flex-container">
+            <div class="dropdown">
+                <button onclick="dropdown()" class="dropbtn">Buscar por</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#proposta" onclick="proposta()">Proposta</a>
+                    <a href="#temas" onclick="temas()">Temas</a>
+                    <a href="#ementa" onclick="ementa()">Ementa</a>
+                    <a href="#ano" onclick="ano()">Ano</a>
+                    <a href="#autor" onclick="autor()">Autor</a>
+                    <a href="#cargo" onclick="cargo()">Cargo</a>
+                    <a href="#partido" onclick="partido()">Partido</a>
+                    <a href="#acompanhe" onclick="acompanhe()">Acompanhe</a>
+                </div>
+            </div>
+
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Buscar">
+        </div>
+
         <table id="myTable">
             <thead>
                 <tr>
