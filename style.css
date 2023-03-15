@@ -32,14 +32,18 @@ table td{
 
 table a{
 	text-decoration: none;
-	color: darkred;
-	background-color: #ffecef;
+	color: #555;
+	/*background-color: rgb(222, 231, 243);*/
 	padding: 10px 15px;
 }
 
+table div{
+    background-color: rgb(222, 231, 243);
+}
+
 table a:active{
-	background-color: #ccf4d6;
-	color:  green;
+	background-color: rgb(199, 230, 245);
+	color:  #555;
 }
 
 table select{
@@ -63,4 +67,20 @@ table select:focus{
     padding: 12px 20px 12px 40px; /* Add some padding */
     border: 1px solid #ddd; /* Add a grey border */
     margin-bottom: 12px; /* Add some space below the input */
-  }
+}
+
+nav{
+    background-color: #ddd;
+    padding:8px;
+}
+
+nav a {
+    display: inline;
+    padding: 8px;
+    text-decoration: none;
+    color:rgb(20, 20, 20);
+}
+
+nav a:hover{
+    background-color: rgb(175, 171, 171);
+}

@@ -1,4 +1,4 @@
-fetch('proposicoesCamaraFinal.json')
+fetch('proposicoesSenadoFinal.json')
 .then(function(response){
     return response.json()
 })
@@ -8,14 +8,14 @@ fetch('proposicoesCamaraFinal.json')
     for(let proposicao of proposicoes){
         out+=`
             <tr>
+                <td>${proposicao.Proposta}</td>
                 <td>${proposicao.Temas}</td>
                 <td>${proposicao.Ementa}</td>
-                <td>${proposicao.Tipo}</td>
                 <td>${proposicao.Ano}</td>
                 <td>${proposicao.Autor}</td>
                 <td>${proposicao.Cargo}</td>
                 <td>${proposicao.Partido}</td>
-                <td>${proposicao.Link}</td>
+                <td><div><a href='${proposicao.Link}'>${proposicao.Link}</a></div></td>
             </tr>
         `;
     }
