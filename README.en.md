@@ -1,5 +1,8 @@
 # Política para Apressados (Politics for People in a Hurry)
 
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/Lua-sketch/politica_para_apressados/blob/main/README.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Lua-sketch/politica_para_apressados/blob/main/README.en.md)
+
 ## About
 This site was created as a final project for the Global Fellowship at the Columbia Journal of Science, Technology, Ethics, and Policy (JSTEP). 
 The goal is to make public data from the Brazilian Chamber of Deputies and Senate easier to navigate. Thus, voters can better inform themselves about different deputies, 
