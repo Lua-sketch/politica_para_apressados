@@ -14,7 +14,7 @@
         </nav>
 
         <main>
-        <h1>Senado</h1>
+        <h1>Senado (Versão Beta)</h1>
 
         <div class="info">
         <p>O Senado Federal está descrito no Artigo 46º da Constituição como sendo representante
@@ -40,46 +40,25 @@
             escolha a coluna pela qual deseja filtrar os resultados.
         </p>
 
-        <a href="test.html" class="versaobeta">Clique aqui para acessar a versão beta da página do Senado com atualizações automáticas.
-            Note que essa versão ainda está em desenvolvimento - a ferramenta de busca não está completamente pronta. Além disso,
-            algumas colunas da base de dados estão faltando.
-        </a>
-
         <div class="flex-container">
             <div class="dropdown">
                 <button onclick="dropdown()" class="dropbtn">Buscar por</button>
                 <div id="myDropdown" class="dropdown-content">
                     <a href="#proposta" onclick="proposta()">Proposta</a>
-                    <a href="#temas" onclick="temas()">Temas</a>
                     <a href="#ementa" onclick="ementa()">Ementa</a>
                     <a href="#ano" onclick="ano()">Ano</a>
                     <a href="#autor" onclick="autor()">Autor</a>
                     <a href="#cargo" onclick="cargo()">Cargo</a>
                     <a href="#partido" onclick="partido()">Partido</a>
-                    <a href="#acompanhe" onclick="acompanhe()">Acompanhe</a>
                 </div>
             </div>
 
             <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Buscar">
         </div>
 
-        <table id="myTable">
-            <thead>
-                <tr>
-                    <th>Proposta</th>
-                    <th>Temas</th>
-                    <th>Ementa</th>
-                    <th>Ano</th>
-                    <th>Autor</th>
-                    <th>Cargo</th>
-                    <th>Partido</th>
-                    <th>Acompanhe</th>
-                </tr>
-            </thead>
-            <tbody id="data-output"></tbody>
-        </table>
+        <table id="myTable"></table>
         </main>
 
-        <script src="script.js"></script>
+        <script src="test.js"></script>
     </body>
 </html>

@@ -157,7 +157,7 @@ nav a:hover{
     margin:7px;
   }
 
-  h1{
+  h1, h2{
     margin-left: 7px;
   }
 
@@ -168,4 +168,10 @@ nav a:hover{
     padding:3px;
     margin:5px;
     margin-bottom: 20px;
+  }
+
+  .versaobeta{
+    font-size:12px;
+    margin-left:7px;
+    margin-bottom:5px;
   }
