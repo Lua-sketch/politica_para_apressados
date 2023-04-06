@@ -10,4 +10,4 @@ senators and parties, and the general public can access bills of interest in a v
 
 ## Data
 All data about bills proposed by deputies was obtained from the Open Data API of the Brazilian Chamber of Deputies. Similarly, all data on bills proposed by senators comes from 
-the Brazilian Senate's Open Data API.
+the Brazilian Senate's Open Data API. For more details on obtaining and formatting the data displayed on the site, you can access the [repository that contains the code used to generate the files proposicoesCamaraFinal.json and proposicoesSenadoFinal.json](https://github.com/Lua-sketch/dados_politica_para_apressados).
