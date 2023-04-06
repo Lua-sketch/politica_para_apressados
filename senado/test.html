@@ -44,16 +44,16 @@
             <div class="dropdown">
                 <button onclick="dropdown()" class="dropbtn">Buscar por</button>
                 <div id="myDropdown" class="dropdown-content">
-                    <a href="#proposta" onclick="proposta()">Proposta</a>
-                    <a href="#ementa" onclick="ementa()">Ementa</a>
-                    <a href="#ano" onclick="ano()">Ano</a>
-                    <a href="#autor" onclick="autor()">Autor</a>
-                    <a href="#cargo" onclick="cargo()">Cargo</a>
-                    <a href="#partido" onclick="partido()">Partido</a>
+                    <a href="#proposta" onclick="proposta()" role="button">Proposta</a>
+                    <a href="#ementa" onclick="ementa()" role="button">Ementa</a>
+                    <a href="#ano" onclick="ano()" role="button">Ano</a>
+                    <a href="#autor" onclick="autor()" role="button">Autor</a>
+                    <a href="#cargo" onclick="cargo()" role="button">Cargo</a>
+                    <a href="#partido" onclick="partido()" role="button">Partido</a>
                 </div>
             </div>
 
-            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Buscar">
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Buscar" aria-label="Buscar">
         </div>
 
         <table id="myTable"></table>
